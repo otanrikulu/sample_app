@@ -115,3 +115,64 @@ Started GET "/static_pages/home" for 127.0.0.1 at 2012-06-11 10:46:47 -0500
 Processing by StaticPagesController#home as HTML
   Rendered static_pages/home.html.erb (0.7ms)
 Completed 200 OK in 11ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-06-11 11:24:27 -0500
+Connecting to database specified by database.yml
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 152ms (Views: 150.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-11 11:24:29 -0500
+Served asset /application.css - 304 Not Modified (71ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-11 11:24:29 -0500
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-11 11:24:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-11 11:24:29 -0500
+Served asset /static_pages.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-11 11:24:29 -0500
+Served asset /jquery.js - 304 Not Modified (47ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-11 11:24:29 -0500
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/static_pages/contact" for 127.0.0.1 at 2012-06-11 11:24:52 -0500
+Processing by StaticPagesController#contact as HTML
+  Rendered static_pages/contact.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-11 11:24:53 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-11 11:24:53 -0500
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-11 11:24:53 -0500
+Served asset /application.js - 304 Not Modified (57ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-11 11:24:53 -0500
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-11 11:24:53 -0500
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-11 11:24:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
